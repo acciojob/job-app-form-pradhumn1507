@@ -1,48 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <form action="santosh08011999@gmail.com" method="post">
-		<label for="name">Name</label>
-		<input type="text" required id="name" placeholder="Type  name" name="name">
-		<br><br>
+	<!-- the entire body must be written by student -->
+	 <form action="submit.html" method="post"> 
+        <label for="portfolio">URL</label>
+        <input type="url" placeholder="url" id="portfolio" required>
+        <br><br>
 
-		<label for="email">Email:</label>
-		<input type="text" required id="email" placeholder="Type mail" name="email">
-		<br><br>
-
-		<label for="gender">Gender:</label>
-		<input type="radio" name="gender" id="gender" value="M"  > Male
-		<input type="radio" name="gender" id="gender" value="F" > Female
-		<input type="radio" name="gender" id="gender" value="O" > Others
-		<br><br>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Name" id="name" required>
+    <br><br>
       
-		<label for="cars">Car Brands </label>
-		<select  name="carbrand" id="cars">
-			<option value="BMW">BMW</option>
-            <option value="Audi">Audi</option>
-			<option value="Mercedez">Mercedez</option>
-		</select>
-		<br><br>
-		<label for="age">Age:</label>
-		<input type="number" name="age" id="age" required>
-		<br><br>
+        <!-- Email -->
+        <label for="email">Email</label>
+        <input type="email" placeholder="Email" id="email" required>
+     
+        <!-- gender -->
+    <p>Gender</p>
+    <label for="gender" >Male</label>
+        <input type="radio" name="gender" value="male" id="male" required>
+    <label for="gender" >Female</label>
+        <input type="radio" name="gender" value="female" id="female">
+    ​
+        <br><br>
+     
+         <!-- laptop brands -->
+     
+    <label for="laptop">Laptop Brands</label>
+    <select name="laptop Brands" id="laptop"><br>
+        <option value="Apple">Apple</option>
+        <option value="Asus">Asus</option>
+        <option value="HP">HP</option>
+    </select>
+     <br><br>
+    <!-- age -->
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="your age"required> 
+    <br><br>
+     
+    <!-- age -->
+        <label for="dob">DOB</label>
+        <input type="date" id="dob"required> <br><br>
+         
+        <!-- password -->
+        <label for="password">Password</label>
+        <input type="password"id="password" required> <br><br>
+     
+        <!-- submit -->
+        <button type="submit">submit</button>
+    <script type="text/javascript" src="./script.js">
+</script>
 
-		<label for="dob">DOB:</label>
-		<input type="date" name="dob" id="dob" required>
-		<br><br>
-
-		<label for="password">Password:</label>
-		<input type="password" name="pwd" id="password" required>
-		<br><br>
-
-		<button type="submit">Submit</button>
-
-	</form>
 </body>
+
 </html>
